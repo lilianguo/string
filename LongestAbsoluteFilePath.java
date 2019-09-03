@@ -1,5 +1,7 @@
 class LongestAbsoluteFilePath {
     // https://leetcode.com/problems/longest-absolute-file-path/
+    // time O(n)
+    // space O(n)
     public int lengthLongestPath(String input) {
         if (input == null || input.length() == 0) {
             return 0;
